@@ -16,6 +16,7 @@
     font-size: 1rem;
     font-family: sans-serif;
     border: none;
+    scroll-behavior: smooth;
 }
 
 body {
