@@ -40,6 +40,10 @@ header {
     color: white;
 }
 
+#navbar .logo img {
+    width: 30px;
+}
+
 .navlist {
     width: 50%;
     display: flex;
@@ -60,7 +64,7 @@ header {
 
 @media (max-width: 370px) {
     #navbar {
-        display: block;
+        flex-wrap: wrap;
     }
     .navlist {
         display: none;
