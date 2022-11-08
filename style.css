@@ -1,6 +1,6 @@
 :root {
     --body-bg-clr: white;
-    --header-bg-clr: #115840;
+    --header-bg-clr: hsl(0 0% 5%);
     --navlist-hover-clr: #11ff30;
 
     --h3-fs: 1.5rem;
@@ -21,7 +21,7 @@
 
 body {
     position: relative;
-    background-color: #119230;
+    background-color: var(--header-bg-clr);
 }
 
 header {
@@ -79,7 +79,7 @@ header {
 }
 
 #navbar .btn:hover {
-    background-color: #000;
+    background-color: hsl(10 50% 20%);
     transition: .5s;
 }
 
@@ -167,7 +167,6 @@ section {
     padding: .2em;
     color: white;
     font-weight: var(--fw);
-    /* background-color: #115840; */
 }
 
 .welcome-info .divider {
@@ -212,7 +211,7 @@ h2 {
 
 .blog {
     border-radius: 50% 50% 50% 50% / 5% 5% 10% 10%;
-    background-color: #115840;
+    background-color: hsl(0 10% 105);
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -269,6 +268,7 @@ h2 {
 
 .social-media-handles h3, .phone-contacts h3 {
     font-size: var(--h3-fs);
+    color: hsl(50 50% 50%);
 }
 
 .social-media-handles a, .phone-contacts p {
