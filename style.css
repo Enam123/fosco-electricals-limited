@@ -211,7 +211,7 @@ h2 {
 
 .blog {
     border-radius: 50% 50% 50% 50% / 5% 5% 10% 10%;
-    background-color: hsl(0 10% 105);
+    background-color: hsl(0 10% 10%);
     color: white;
     display: flex;
     flex-wrap: wrap;
